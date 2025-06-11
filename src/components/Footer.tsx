@@ -1,4 +1,3 @@
-
 import { Film, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <Film className="w-8 h-8 text-purple-400 mr-3" />
-              <span className="text-2xl font-bold text-white">BISHA STUDIOS</span>
+              <span className="text-2xl font-bold neon-text">BISHA STUDIOS</span>
             </div>
             <p className="text-gray-400 mb-6">
               Creating the future of cinema through artificial intelligence and innovative storytelling.
@@ -53,7 +52,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-500">
-            © 2024 BISHA STUDIOS. All rights reserved. The future of filmmaking starts here.
+            © 2024 <span className="neon-text">BISHA</span> STUDIOS. All rights reserved. The future of filmmaking starts here.
           </p>
         </div>
       </div>

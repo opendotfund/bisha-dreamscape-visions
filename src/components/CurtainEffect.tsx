@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 
 const CurtainEffect = () => {
@@ -47,7 +46,7 @@ const CurtainEffect = () => {
         }`}
       >
         <div className="text-center">
-          <h1 className="text-6xl md:text-8xl font-bold text-amber-400 mb-4 drop-shadow-[0_0_10px_rgba(245,158,11,0.5)]">BISHA</h1>
+          <h1 className="text-6xl md:text-8xl font-bold neon-text mb-4 drop-shadow-[0_0_10px_rgba(245,158,11,0.5)]">BISHA</h1>
           <p className="text-xl md:text-2xl text-amber-300">STUDIOS</p>
         </div>
       </div>

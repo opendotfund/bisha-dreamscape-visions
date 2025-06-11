@@ -1,4 +1,3 @@
-
 import { Play, Film, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -11,7 +10,7 @@ const Hero = () => {
         <div className="flex items-center justify-center mb-8">
           <Film className="w-16 h-16 text-amber-400 mr-4" />
           <h1 className="text-7xl md:text-9xl font-bold bg-gradient-to-r from-amber-500 via-amber-300 to-yellow-200 bg-clip-text text-transparent">
-            BISHA
+            <span className="neon-text">BISHA</span>
           </h1>
         </div>
         
